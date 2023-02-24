@@ -1,0 +1,73 @@
+/* ------------Header ----------------------------------- */
+.contactus-form-container{
+    width:100%;
+    /* background-color: rgb(231,231,231); */
+    background-color: #7d7f88;
+    background-image: linear-gradient(43deg, #5f7af3 0%, #7d7f88 46%, white 100%);
+    }
+.contactus-heading{
+    font-size:3rem;
+    text-align: center;
+    }
+.contactus-sub-heading{
+    font-size:2rem;
+    color:#343d68aa;
+    text-align: center;
+    }
+.contactus-form-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+/* ------------Form ----------------------------------- */
+.form{
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+    width:70%;
+   
+    }
+.formfield{
+    width:100%;
+    height:3.0rem;
+    padding: 0 2rem;
+    font-size:18px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    font-weight:500;
+    border:none;
+    margin-top:1.5rem;
+    }
+.formfield-textarea{
+    height:auto;
+    padding-top:1rem;
+    }
+#submit-btn{
+    border:none;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    background-color: grey;
+    }
+#submit-btn:hover{
+    scale:0.9;
+    }
+/* ------------Footer ----------------------------------- */
+.footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+.ul-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4.8rem;
+        list-style: none;  
+    }
+a:visited{
+        color: white;
+    }
