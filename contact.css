@@ -26,6 +26,9 @@
     flex-direction: column;
     gap:3rem;
     width:70%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
    
     }
 .formfield{
